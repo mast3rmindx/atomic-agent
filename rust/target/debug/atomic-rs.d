@@ -1,1 +1,0 @@
-/workspace/rust/target/debug/atomic-rs: /workspace/rust/crates/atomic-cli/src/main.rs /workspace/rust/crates/atomic-core/src/lib.rs /workspace/rust/crates/atomic-provider-openai/src/lib.rs /workspace/rust/crates/atomic-tools/src/lib.rs

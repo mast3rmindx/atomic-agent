@@ -1,0 +1,20 @@
+[package]
+name = "atomic-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[[bin]]
+name = "atomic-rs"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+async-trait.workspace = true
+atomic-core = { path = "../atomic-core" }
+atomic-provider-openai = { path = "../atomic-provider-openai" }
+atomic-tools = { path = "../atomic-tools" }
+clap.workspace = true
+tokio.workspace = true

@@ -1,0 +1,10 @@
+[package]
+name = "atomic-hyper-shell"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+atomic-core = { path = "../atomic-core" }
